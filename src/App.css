@@ -2,37 +2,63 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.outerdiv {
+  border: solid black 5px;
+  background-color: rgb(0,109,119);
+  width: 45%;
+  margin: 10px;
+  padding: 15px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header {
+  border: solid black 3px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.purchased {
+  border: solid black 3px;
+  background-color: rgb(131,197,190);
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+.form {
+ border: solid black 3px;
+ font-family: georgia, serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.field {
+  background-color: rgb(131,197,190);
+  margin: 10px;
+}
+
+.button {
+  outline: none;
+  margin: 5px;
+  border: 0;
+  border-radius: .25em;
+  background: rgb(131,197,190);
+  cursor: pointer;
+  padding: .4em .8em;
+  text-rendering: optimizeLegibility;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 300;
+  color: inherit;
+  box-shadow: 0 .2em #888;
+  -webkit-transform: translateY(-.2em);
+  -moz-transform: translateY(-.2em);
+  transform: translateY(-.2em)
+}
+
+.button:hover,
+.button.hover{
+  background: rgb(0,109,119)
+}
+
+.button:active,
+.button.active{
+  box-shadow: none;
+  background: rgb(237,246,249);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0)
 }
