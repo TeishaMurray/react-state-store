@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  margin: 1em;
+  padding: 1em;
+  font-family: 'Poppins', sans-serif;
+  background: #FEFFE9;
+  text-align: center;
+}
+
+
+div{
+  margin: auto;
+  width: 80%;
+  box-shadow: 0 0 8px dodgerblue;
+  padding: 1em;
+  background: white;
+}
+
+/* .divone{
+  margin: auto;
+  width: 70%;
+  box-shadow: 0 0 8px dodgerblue;
+  padding: 1em;
+  background: white;
+} */
